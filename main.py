@@ -61,3 +61,25 @@ e3 = Employee("J129", "Bana", "Lyes")
 v1 = Voiture("A15", 2021, "Toyota", 133500)
 v2 = Voiture("A16", 2024, "BMW", 45000)
 v3 = Voiture("A31", 2025, "Audi", 25000)
+
+e1.afficherInformations()
+e2.afficherInformations()
+e3.afficherInformations()
+
+v1.afficherInformations()
+v2.afficherInformations()
+v3.afficherInformations()
+
+e1.affecterVoiture(v1)
+e2.affecterVoiture(v2)
+e3.affecterVoiture(v3)
+
+e1.retirerVoiture()
+
+e1.affecterVoiture(v2)
+
+e1.afficherInformations()
+e2.afficherInformations()
+
+v1.afficherInformations()
+v2.afficherInformations()
