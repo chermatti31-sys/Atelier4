@@ -53,3 +53,11 @@ class Voiture:
             print("Chauffeur : aucun")
         else:
             print("Chauffeur :", self.chauffeur.nom, self.chauffeur.prenom)
+
+e1 = Employee("J131", "Ifticene", "Tommy")
+e2 = Employee("J103", "Kiwi", "Anis")
+e3 = Employee("J129", "Bana", "Lyes")
+
+v1 = Voiture("A15", 2021, "Toyota", 133500)
+v2 = Voiture("A16", 2024, "BMW", 45000)
+v3 = Voiture("A31", 2025, "Audi", 25000)
